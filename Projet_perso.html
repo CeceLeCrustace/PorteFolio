@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Projet_perso.css">
+    <title>Projet Personnel</title>
+</head>
+<script type="text/javascript">
+    function switchInfoPerso1()
+    {
+    divInfo = document.getElementById('divacacher1');
+    if (divInfo.style.display == 'none')
+    divInfo.style.display = 'block';
+    else
+    divInfo.style.display = 'none';
+    }
+    function switchInfoPerso2()
+    {
+    divInfo = document.getElementById('divacacher2');
+    if (divInfo.style.display == 'none')
+    divInfo.style.display = 'block';
+    else
+    divInfo.style.display = 'none';
+    }
+    function switchInfoPerso3()
+    {
+    divInfo = document.getElementById('divacacher3');
+    if (divInfo.style.display == 'none')
+    divInfo.style.display = 'block';
+    else
+    divInfo.style.display = 'none';
+    }
+</script>
+<body>
+    <div class="container">
+        <div class="proj">
+            <a href="javascript: switchInfoPerso1();" class="title">Projet Familial</a>
+            <div id="divacacher1" style="display: none;" class="text">
+                <p>
+                    Mon objectif pour ce projet est de rendre ma famille heureuse et fiers de moi, pouvoir leur offrir ce qu'il ne peuvent pas forcément ce permettre. De profiter d'elle le plus possible. J'aimerais donc pour cela organiser tout les ans une semaine où l'on se retrouverait dans une villa pour passer du bon temps.
+                </p>
+            </div>
+        </div>
+        <div class="proj">
+            <a href="javascript: switchInfoPerso2();" class="title">Projet Culturel</a>
+            <div id="divacacher2" style="display: none;" class="text">
+                <p>
+                    Mon objectif à travers ce projet est de découvrir pleins de cultures différentes à travers par exemple: un tour du monde pendant 1 ans, des voyage humanitaire,...
+                </p>
+            </div>
+        </div>
+        <div class="proj">
+            <a href="javascript: switchInfoPerso3();" class="title">Projet Sportif</a>
+            <div id="divacacher3" style="display: none;" class="text">
+                <p>
+                    Mon objectif pour ce projet est de pratiquer du sport régulièrement afin de pouvoir se sentir bien dans son corps et de pouvoir s'évader après une journée de travail. En plus d'une pratique de sport régulière j'aimerais me lancée des défis comme par exemple: faire un tour de france en vélo, faire un marrathon/semi-marrathon,... 
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <h1>Projet Personnel</h1>
+    <a href="Présentation.html"><button class="next_page">Présentation</button></a>
+</footer>
+</html>

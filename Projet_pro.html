@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Projet_pro.css">
+    <title>Projet Professionnel</title>
+</head>
+<script type="text/javascript">
+    function switchInfoPerso1()
+    {
+    divInfo = document.getElementById('divacacher1');
+    if (divInfo.style.display == 'none')
+    divInfo.style.display = 'block';
+    else
+    divInfo.style.display = 'none';
+    }
+    function switchInfoPerso2()
+    {
+    divInfo = document.getElementById('divacacher2');
+    if (divInfo.style.display == 'none')
+    divInfo.style.display = 'block';
+    else
+    divInfo.style.display = 'none';
+    }
+    function switchInfoPerso3()
+    {
+    divInfo = document.getElementById('divacacher3');
+    if (divInfo.style.display == 'none')
+    divInfo.style.display = 'block';
+    else
+    divInfo.style.display = 'none';
+    }
+</script>
+<body>
+    <div class="container">
+        <div class="proj">
+            <a href="javascript: switchInfoPerso1();" class="title">Première Étape</a>
+            <div id="divacacher1" style="display: none;" class="text">
+                <p>
+                    Mon premier objectif est de devenir programmeur informatique. Pour cela je me suis engagé dans un BUT Informatique sur 3 ans, avec les 2 dernières années en alternance si possible pour pouvoir par la suite directement intégrer une entreprise. 
+                </p>
+            </div>
+        </div>
+        <div class="proj">
+            <a href="javascript: switchInfoPerso2();" class="title">Seconde Étape</a>
+            <div id="divacacher2" style="display: none;" class="text">
+                <p>
+                    Par la suite j'aimerais évolué au seins d'une entreprise en tant que chef de projet, afin d'aquérir de l'expérience.
+                </p>
+            </div>
+        </div>
+        <div class="proj">
+            <a href="javascript: switchInfoPerso3();" class="title">Étape Finale</a>
+            <div id="divacacher3" style="display: none;" class="text">
+                <p>
+                    L'objectif finale serait donc qu'avec toute cette expérience aquérie je puisse monter ma propre entreprise de developpement.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <a href="Présentation.html"><button class="next_page">Présentation</button></a>
+    <h1>Projet Professionnel</h1>
+</footer>
+</html>
